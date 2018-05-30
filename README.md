@@ -46,11 +46,11 @@ foo@bar:~/todos-part-1 $ yarn start
 
 ## Acceptance Criteria
 
-### Step 1: Move [assets/index.css](assets/index.css) to `src/index.css`
+### Step 1 (1 point): Move [assets/index.css](assets/index.css) to `src/index.css`
 This stylesheet will be read by `src/index.js` and used to style the todo
 application.
 
-### Step 2: Move [assets/todos.json](assets/todos.json) to `src/todos.json`
+### Step 2 (1 point): Move [assets/todos.json](assets/todos.json) to `src/todos.json`
 Once you've moved `assets/todos.json`, add an import to the top of `App.js`
 so that you can access its contents:
 
@@ -76,14 +76,14 @@ answer the following questions:
 Hint: The answer to the first two of these should be pretty obvious, but the
 third may be a bit tricky.
 
-#### Step 4: Create a `TodoItem` component (2.5 points)
+#### Step 4 (2 points): Create a `TodoItem` component 
 Create a `TodoItem` component that renders an individual todo item. It's up
 to you to determine what props it can take, but here are some hints to get started:
 
 - It should be possible to pass in the text to be displayed on the todo item.
 - It should be possible to pass in whether or not the item has been completed
 
-#### Step 5: Create a `TodoList` component (2.5 points)
+#### Step 5 (2 points): Create a `TodoList` component
 
 Next, you'll need to write `TodoList` component which can take an array of
 todos and render them. We recommend that you map over the `todoList` array
@@ -100,7 +100,7 @@ adding to the todo list in the future, so would like the component to keep
 track of current todos. We can't mutate state in React, so it won't do to
 just append to the `todoList` array..
 
-#### 6: Use your `TodoList` component inside of the `App` component (2.5 points)
+#### Step 6 (2 points): Use your `TodoList` component inside of the `App` component
 
 All that remains is to use the `TodoList` component inside of the `App` component.
 
