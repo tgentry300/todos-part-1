@@ -60,7 +60,7 @@ import todoList from './todos.json';
 
 You'll now be able to iterate over the individual todos in `todoList`.
 
-### Step 1: Convert [assets/index.html](assets/index.html) into JSX (x point(s))
+### Step 3: Convert [assets/index.html](assets/index.html) into JSX (2.5 points)
 Your first task will be to convert [assets/index.html](assets/index.html) to
 JSX. 
 
@@ -76,14 +76,14 @@ answer the following questions:
 Hint: The answer to the first two of these should be pretty obvious, but the
 third may be a bit tricky.
 
-#### Step 2a: Create a `TodoItem` component
+#### Step 4: Create a `TodoItem` component (2.5 points)
 Create a `TodoItem` component that renders an individual todo item. It's up
 to you to determine what props it can take, but here are some hints to get started:
 
 - It should be possible to pass in the text to be displayed on the todo item.
 - It should be possible to pass in whether or not the item has been completed
 
-#### Step 2b: Create a `TodoList` component
+#### Step 5: Create a `TodoList` component (2.5 points)
 
 Next, you'll need to write `TodoList` component which can take an array of
 todos and render them. We recommend that you map over the `todoList` array
@@ -100,7 +100,7 @@ adding to the todo list in the future, so would like the component to keep
 track of current todos. We can't mutate state in React, so it won't do to
 just append to the `todoList` array..
 
-#### 2c: Use your `TodoList` component inside of the `App` component 
+#### 6: Use your `TodoList` component inside of the `App` component (2.5 points)
 
 All that remains is to use the `TodoList` component inside of the `App` component.
 
