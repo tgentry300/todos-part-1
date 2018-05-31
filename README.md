@@ -109,11 +109,11 @@ Hint: If you answered the first two questions above about
 and `TodoList` components should become apparent.
 
 ## Final Product
-![example output](screenshots/final-part1.png)
+Here is a screenshot of what your app should look like at this point. You can type in the input, but there is no actual functionality implemented.
+![final product](screenshots/final-part1.png)
 
 ## Submission
 
-This morning, you learned how to deploy a React app to GitHub Pages, so you
-__will__ be required to submit a deployed application today. If you instead
+You __will__ be required to submit a deployed application today. If you instead
 submit a link to a GitHub repository (that is, only code), you _will_ be awarded
 __0__ points.
