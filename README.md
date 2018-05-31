@@ -76,14 +76,14 @@ answer the following questions:
 Hint: The answer to the first two of these should be pretty obvious, but the
 third may be a bit tricky.
 
-#### Step 3a (2 points): Create a `TodoItem` component 
+#### Step 3a (3 points): Create a `TodoItem` component 
 Create a `TodoItem` component that renders an individual todo item. It's up
 to you to determine what props it can take, but here are some hints to get started:
 
 - It should be possible to pass in the text to be displayed on the todo item.
 - It should be possible to pass in whether or not the item has been completed
 
-#### Step 3b (2 points): Create a `TodoList` component
+#### Step 3b (3 points): Create a `TodoList` component
 
 Next, you'll need to write `TodoList` component which can take an array of
 todos and render them. We recommend that you map over the `todoList` array
