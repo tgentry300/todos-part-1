@@ -109,7 +109,7 @@ Hint: If you answered the first two questions above about
 and `TodoList` components should become apparent.
 
 ## Final Product
-
+![example output](screenshots/final-part1.png)
 
 ## Submission
 
