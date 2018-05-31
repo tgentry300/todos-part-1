@@ -108,12 +108,8 @@ Hint: If you answered the first two questions above about
 [assets/index.html](assets/index.html), the reason for separating the `App`
 and `TodoList` components should become apparent.
 
-## Bonus (0 points)
+## Final Product
 
-If you find yourself with extra time (e.g., don't have other assessments to
-catch up on), you may consider improving the quality in a number of ways:
-
-- { some extra work that can be done to challenge the student further }
 
 ## Submission
 
