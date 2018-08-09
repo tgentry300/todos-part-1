@@ -5,7 +5,8 @@ import todoList from './todos.json';
 
 class TodoItem extends Component {
   state = {
-    checked: false
+    checked: false,
+    destroy: false
     }
 
   handleCheckClick = () =>{
@@ -13,14 +14,22 @@ class TodoItem extends Component {
       checked: !this.state.checked
     })
   }
+
+  handleDestroyOnButtonClick = () => {
+    this.setState({
+      destroy: !this.state.destroy
+    })
+  }
+
   render() { 
+
     return ( 
-        <li>
-          <div className={this.state.checked ? 'completed' : 'editing'}>
+        <li className={this.state.checked ? 'completed' : null}>
+          <div className={this.state.destroy ? 'destroy-item' : 'view'}>
             <input className='toggle' type='checkbox' checked={this.state.checked} 
             onChange={this.handleCheckClick}/>
             <label>{this.props.text}</label>
-            {/* <button className='destroy'></button> */}
+            <button className='destroy' onClick={this.handleDestroyOnButtonClick}></button>
           </div>
         </li>
      );
@@ -43,6 +52,10 @@ class TodoList extends Component {
             {this.state.todos.map(todo => <TodoItem text={todo.title} key={todo.id}/>)}
           </ul>
         </section>
+        <footer className='footer'>
+            <span className='todo-count'><strong>{this.state.todos.length}</strong></span>
+            <button className='clear-completed' onClick={this.handleClearCompleted}>Clear Completed Tasks</button>
+          </footer>
       </div>
      );
   }
